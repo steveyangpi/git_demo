@@ -1,6 +1,6 @@
 //============================================================================
 // Name        : Queue.cpp
-// Author      : 
+// Author      :
 // Version     :
 // Copyright   : Your copyright notice
 // Description : Hello World in C++, Ansi-style
@@ -29,7 +29,7 @@ int main() {
 	double perhour;
 	cin >> perhour;
 	double min_per_cust;
-	min_per_cust = MIN_PER_HR;
+	min_per_cust = MIN_PER_HR/perhour;
 	Item temp;
 	long turnaways = 0;
 	long customers = 0;
